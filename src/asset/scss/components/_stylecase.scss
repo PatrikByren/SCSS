@@ -1,0 +1,57 @@
+.stylecase{
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        align-content: stretch;
+        align-items: stretch;
+        justify-content: stretch;
+        .officestyle{
+            height: 400px;
+            background-color: #FFE1C9;
+            background-image: url('/src/asset/images/Shopping-in-Amsterdam-2.png');
+            margin: 0px;
+            background-size: 70%;
+            background-position:  left;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items:flex-end;
+            flex-direction: column;
+          
+        }
+        .offer{
+            background-color: $color-lightgray;
+            margin: 0px 30px;
+            height: 400px;
+            .conetent{
+                width: auto;
+                height: 92%;
+                margin: 4%;
+                padding: 1rem;
+                border: 5px solid $color-theme;
+                display: flex;
+                flex-direction: column;
+                align-content: stretch;
+                justify-content: stretch;
+                align-items: center;
+                .btn{
+                    width: 50%;
+                }
+                .title-3{
+                    text-align: center;
+                    
+                }
+
+            }
+        }
+        .partystyle{
+            background-color: #FACC71;
+            margin: 0px;
+            height: 400px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+}
